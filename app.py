@@ -1,3 +1,4 @@
-username =input("What is your discord username? ")
-isnewuser = input("Are you a new user? (yes/no) ")
-print('hello. your username is ' +username + ' and you are a new user: ' + isnewuser)
+weight_lbs = input('what is ur weight in pounds?')
+weight_lbs = float(weight_lbs)
+kg = weight_lbs / 2.2
+print('your weight in kg is', kg, "kilograms")
